@@ -28,11 +28,11 @@
   "private": true,
   "homepage": "https://github.com/MphasisWyde/ewam-installer/blob/master/README.md",
   "dependencies": {
-    "@ewam/clickonce": "7.0.11-nightly.697",
+    "@ewam/clickonce": "7.0.11",
     "@ewam/kernel": "7.0.11",
     "@ewam/library": "7.0.11",
     "@ewam/node-hosting": "7.0.11",
-    "@ewam/test": "7.1.0-nightly.681",
+    "@ewam/test": "7.0.11",
     "@ewam/win32dll": "1.0.0",
     "@polycuber/script.cli": "^1.0.0",
     "cookie-parser": "^1.4.5",
