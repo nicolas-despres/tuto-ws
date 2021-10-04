@@ -1,0 +1,47 @@
+{
+  "name": "ewam-app-demo",
+  "version": "0.0.1",
+  "scripts": {
+    "ewam": "node -r dotenv/config ./scripts/call.js ewam.exe ",
+    "ewam-console": "node -r dotenv/config ./scripts/call.js ewamconsole.exe ",
+    "ewam-service": "node -r dotenv/config ./scripts/call.js eWAMService.exe /RUNASSERVICE:(WYDE-ADMIN)/config-runtime-ide.json",
+    "patch-system": "node -r dotenv/config ./scripts/call.js ewamconsole.exe /PATCHSYSTEM",
+    "force-patch-system": "node -r dotenv/config ./scripts/call.js ewamconsole.exe /FORCEPATCHSYSTEM",
+    "start": "node -r dotenv/config ./scripts/callApp.js eWAMService.exe @(WYDE-ADMIN)/required-parameters.cfg",
+    "configure": "node -r dotenv/config ./scripts/launchConfiguration.js",
+    "ewam-sync": "node -r dotenv/config ./scripts/call.js ewamconsole.exe /SYNCHRONIZEALL %*",
+    "bundle:install:wamcloud": "node -r dotenv/config ./scripts/installBundle.js --location ./Bundle/WAMCloud --name WAMCloud",
+    "bundle:install:ewamex": "node -r dotenv/config ./scripts/setupBundle.js --name wxwamadvancedcomponents",
+    "ewam-cli": "ewam-cli",
+    "devenv": "node -r dotenv/config ./scripts/launch_devenv.js",
+    "node-hosting": "node -r dotenv/config server.js",
+    "test": "node -r dotenv/config ./scripts/call.js TestWideDll.exe --gtest_output=xml",
+    "test2": "node -r dotenv/config ./node_modules/@ewam/test/testParser.js",
+    "test:utf": "node -r dotenv/config ./node_modules/@ewam/test/testParser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MphasisWyde/ewam-installer.git"
+  },
+  "author": "Mphasis Wyde",
+  "license": "license@wyde.com",
+  "private": true,
+  "homepage": "https://github.com/MphasisWyde/ewam-installer/blob/master/README.md",
+  "dependencies": {
+    "@ewam/clickonce": "7.0.11-nightly.697",
+    "@ewam/kernel": "7.0.11",
+    "@ewam/library": "7.0.11",
+    "@ewam/node-hosting": "7.0.11",
+    "@ewam/test": "7.1.0-nightly.681",
+    "@ewam/win32dll": "1.0.0",
+    "@polycuber/script.cli": "^1.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "@ewam/cli": "0.1.0-alpha.5",
+    "@ewam/test": "7.0.6"
+  }
+}

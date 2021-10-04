@@ -1,0 +1,5 @@
+Admin/
+bin/
+TGV/
+.env
+node_modules/
