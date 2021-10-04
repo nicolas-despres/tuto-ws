@@ -25,7 +25,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
+    
     - run: npm set //pkgs.dev.azure.com/mphasis-wyde/ewam/_packaging/ewam/npm/registry/:username=VssSessionToken 
     - run: npm set @ewam:registry=https://pkgs.dev.azure.com/mphasis-wyde/ewam/_packaging/ewam/npm/registry/
     - run: npm set @wynsure:registry=https://pkgs.dev.azure.com/mphasis-wyde/ewam/_packaging/ewam/npm/registry/ 
