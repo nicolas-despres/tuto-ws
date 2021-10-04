@@ -29,7 +29,7 @@ jobs:
     - run: npm set //pkgs.dev.azure.com/mphasis-wyde/ewam/_packaging/ewam/npm/registry/:username=VssSessionToken 
     - run: npm set @ewam:registry=https://pkgs.dev.azure.com/mphasis-wyde/ewam/_packaging/ewam/npm/registry/
     - run: npm set @wynsure:registry=https://pkgs.dev.azure.com/mphasis-wyde/ewam/_packaging/ewam/npm/registry/ 
-    - run: npm set "//pkgs.dev.azure.com/mphasis-wyde/ewam/_packaging/ewam/npm/registry/:_password=$TEST"
+    - run: npm set "//pkgs.dev.azure.com/mphasis-wyde/ewam/_packaging/ewam/npm/registry/:_password=%AZ_PAT%"
       env:
         AZ_PAT: ${{ secrets.AZ_PAT }}
         TEST: tt
