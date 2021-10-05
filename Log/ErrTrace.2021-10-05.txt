@@ -1,0 +1,2 @@
+05/10/2021 14:32:59	Process Id 20236	Minor error	\WideDll\WTGV.CPP		Cannot open base D:\app\ewam-test\TGV\W001001.TGV		#10
+05/10/2021 14:32:59	Process Id 20236	Major error	\WideDll\WTGV.CPP	OpenSystemDataBase	cant open D:\app\ewam-test\TGV\W001001.TGV		#5

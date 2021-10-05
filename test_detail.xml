@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="45" failures="0" disabled="0" errors="0" time="2.38" timestamp="2021-08-17T17:10:33" name="AllTests">
-  <testsuite name="TGVTest" tests="1" failures="0" disabled="0" errors="0" time="0.004" timestamp="2021-08-17T17:10:33">
-    <testcase name="TestMasterOwners" status="run" result="completed" time="0.003" timestamp="2021-08-17T17:10:33" classname="TGVTest" />
+<testsuites tests="45" failures="0" disabled="0" errors="0" time="2.157" timestamp="2021-10-05T14:41:38" name="AllTests">
+  <testsuite name="TGVTest" tests="1" failures="0" disabled="0" errors="0" time="0.005" timestamp="2021-10-05T14:41:38">
+    <testcase name="TestMasterOwners" status="run" result="completed" time="0.004" timestamp="2021-10-05T14:41:38" classname="TGVTest" />
   </testsuite>
-  <testsuite name="ContextualDataDocumentTest" tests="5" failures="0" disabled="0" errors="0" time="0.031" timestamp="2021-08-17T17:10:33">
-    <testcase name="TestParseAndStringify" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:33" classname="ContextualDataDocumentTest" />
-    <testcase name="TestCopy" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="ContextualDataDocumentTest" />
-    <testcase name="TestDeepCopy" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="ContextualDataDocumentTest" />
-    <testcase name="TestDifference" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="ContextualDataDocumentTest" />
-    <testcase name="TestAttributes" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="ContextualDataDocumentTest" />
+  <testsuite name="ContextualDataDocumentTest" tests="5" failures="0" disabled="0" errors="0" time="0.005" timestamp="2021-10-05T14:41:38">
+    <testcase name="TestParseAndStringify" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="ContextualDataDocumentTest" />
+    <testcase name="TestCopy" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="ContextualDataDocumentTest" />
+    <testcase name="TestDeepCopy" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="ContextualDataDocumentTest" />
+    <testcase name="TestDifference" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="ContextualDataDocumentTest" />
+    <testcase name="TestAttributes" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="ContextualDataDocumentTest" />
   </testsuite>
-  <testsuite name="DataDocumentTest" tests="15" failures="0" disabled="0" errors="0" time="0.126" timestamp="2021-08-17T17:10:34">
-    <testcase name="TestDocumentInit" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="DataDocumentTest" />
-    <testcase name="TestDocumentAccessibility" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="DataDocumentTest" />
-    <testcase name="TestSetUndefined" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="DataDocumentTest" />
-    <testcase name="TestSetNull" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="DataDocumentTest" />
-    <testcase name="TestSetBool" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="DataDocumentTest" />
-    <testcase name="TestInt" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="DataDocumentTest" />
-    <testcase name="TestNum" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="DataDocumentTest" />
-    <testcase name="TestChars" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="DataDocumentTest" />
-    <testcase name="TestString" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="DataDocumentTest" />
-    <testcase name="TestCString" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="DataDocumentTest" />
-    <testcase name="TestText" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="DataDocumentTest" />
-    <testcase name="TestSetValue" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="DataDocumentTest" />
-    <testcase name="TestClassname" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="DataDocumentTest" />
-    <testcase name="TestMapAndFind" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="DataDocumentTest" />
-    <testcase name="TestAsArray" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:34" classname="DataDocumentTest" />
+  <testsuite name="DataDocumentTest" tests="15" failures="0" disabled="0" errors="0" time="0.013" timestamp="2021-10-05T14:41:38">
+    <testcase name="TestDocumentInit" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="DataDocumentTest" />
+    <testcase name="TestDocumentAccessibility" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="DataDocumentTest" />
+    <testcase name="TestSetUndefined" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="DataDocumentTest" />
+    <testcase name="TestSetNull" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="DataDocumentTest" />
+    <testcase name="TestSetBool" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="DataDocumentTest" />
+    <testcase name="TestInt" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="DataDocumentTest" />
+    <testcase name="TestNum" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="DataDocumentTest" />
+    <testcase name="TestChars" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="DataDocumentTest" />
+    <testcase name="TestString" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="DataDocumentTest" />
+    <testcase name="TestCString" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="DataDocumentTest" />
+    <testcase name="TestText" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="DataDocumentTest" />
+    <testcase name="TestSetValue" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="DataDocumentTest" />
+    <testcase name="TestClassname" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="DataDocumentTest" />
+    <testcase name="TestMapAndFind" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="DataDocumentTest" />
+    <testcase name="TestAsArray" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:38" classname="DataDocumentTest" />
   </testsuite>
-  <testsuite name="GlobalIdentifierTest" tests="2" failures="0" disabled="0" errors="0" time="1.187" timestamp="2021-08-17T17:10:34">
-    <testcase name="TestGlobalIdentifier" status="run" result="completed" time="0.634" timestamp="2021-08-17T17:10:34" classname="GlobalIdentifierTest" />
-    <testcase name="TestGlobalIdentifierErrorMessages" status="run" result="completed" time="0.55" timestamp="2021-08-17T17:10:34" classname="GlobalIdentifierTest" />
+  <testsuite name="GlobalIdentifierTest" tests="2" failures="0" disabled="0" errors="0" time="1.112" timestamp="2021-10-05T14:41:38">
+    <testcase name="TestGlobalIdentifier" status="run" result="completed" time="0.527" timestamp="2021-10-05T14:41:38" classname="GlobalIdentifierTest" />
+    <testcase name="TestGlobalIdentifierErrorMessages" status="run" result="completed" time="0.583" timestamp="2021-10-05T14:41:38" classname="GlobalIdentifierTest" />
   </testsuite>
-  <testsuite name="GoldValidationSuiteTest" tests="1" failures="0" disabled="0" errors="0" time="0.004" timestamp="2021-08-17T17:10:35">
-    <testcase name="TestGoldValidationSuite" status="run" result="completed" time="0.002" timestamp="2021-08-17T17:10:35" classname="GoldValidationSuiteTest" />
+  <testsuite name="GoldValidationSuiteTest" tests="1" failures="0" disabled="0" errors="0" time="0.004" timestamp="2021-10-05T14:41:39">
+    <testcase name="TestGoldValidationSuite" status="run" result="completed" time="0.003" timestamp="2021-10-05T14:41:39" classname="GoldValidationSuiteTest" />
   </testsuite>
-  <testsuite name="IDEServiceTest" tests="1" failures="0" disabled="0" errors="0" time="0.465" timestamp="2021-08-17T17:10:35">
-    <testcase name="TestClassManagement" status="run" result="completed" time="0.463" timestamp="2021-08-17T17:10:35" classname="IDEServiceTest" />
+  <testsuite name="IDEServiceTest" tests="1" failures="0" disabled="0" errors="0" time="0.538" timestamp="2021-10-05T14:41:39">
+    <testcase name="TestClassManagement" status="run" result="completed" time="0.537" timestamp="2021-10-05T14:41:39" classname="IDEServiceTest" />
   </testsuite>
-  <testsuite name="ParseAndConsistencyTest" tests="2" failures="0" disabled="0" errors="0" time="0.438" timestamp="2021-08-17T17:10:35">
-    <testcase name="TestParse" status="run" result="completed" time="0.433" timestamp="2021-08-17T17:10:35" classname="ParseAndConsistencyTest" />
-    <testcase name="TestConsistency" status="run" result="completed" time="0.002" timestamp="2021-08-17T17:10:36" classname="ParseAndConsistencyTest" />
+  <testsuite name="ParseAndConsistencyTest" tests="2" failures="0" disabled="0" errors="0" time="0.398" timestamp="2021-10-05T14:41:39">
+    <testcase name="TestParse" status="run" result="completed" time="0.386" timestamp="2021-10-05T14:41:39" classname="ParseAndConsistencyTest" />
+    <testcase name="TestConsistency" status="run" result="completed" time="0.007" timestamp="2021-10-05T14:41:40" classname="ParseAndConsistencyTest" />
   </testsuite>
-  <testsuite name="SerializationTest" tests="17" failures="0" disabled="0" errors="0" time="0.058" timestamp="2021-08-17T17:10:36">
-    <testcase name="TestBooleanAdapter" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestCharAdapter" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestDecimalAdapter" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestEnumAdapter" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestIntAdapter" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestListAdapter" status="run" result="completed" time="0.001" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestNumAdapter" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestRecordAdapter" status="run" result="completed" time="0.001" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestRenamingAdapter" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestSequenceAdapter" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestArrayAdapter" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestSetAdapter" status="run" result="completed" time="0.001" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestCStringAdapter" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestStringAdapter" status="run" result="completed" time="0.001" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestTextAdapter" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestSubRangeAdapter" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
-    <testcase name="TestEnumSetAdapter" status="run" result="completed" time="0" timestamp="2021-08-17T17:10:36" classname="SerializationTest" />
+  <testsuite name="SerializationTest" tests="17" failures="0" disabled="0" errors="0" time="0.018" timestamp="2021-10-05T14:41:40">
+    <testcase name="TestBooleanAdapter" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestCharAdapter" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestDecimalAdapter" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestEnumAdapter" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestIntAdapter" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestListAdapter" status="run" result="completed" time="0.001" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestNumAdapter" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestRecordAdapter" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestRenamingAdapter" status="run" result="completed" time="0.001" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestSequenceAdapter" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestArrayAdapter" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestSetAdapter" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestCStringAdapter" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestStringAdapter" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestTextAdapter" status="run" result="completed" time="0" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestSubRangeAdapter" status="run" result="completed" time="0.001" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
+    <testcase name="TestEnumSetAdapter" status="run" result="completed" time="0.001" timestamp="2021-10-05T14:41:40" classname="SerializationTest" />
   </testsuite>
-  <testsuite name="SerializationTestWithData" tests="1" failures="0" disabled="0" errors="0" time="0.043" timestamp="2021-08-17T17:10:36">
-    <testcase name="TestClassAdapter" status="run" result="completed" time="0.042" timestamp="2021-08-17T17:10:36" classname="SerializationTestWithData" />
+  <testsuite name="SerializationTestWithData" tests="1" failures="0" disabled="0" errors="0" time="0.051" timestamp="2021-10-05T14:41:40">
+    <testcase name="TestClassAdapter" status="run" result="completed" time="0.05" timestamp="2021-10-05T14:41:40" classname="SerializationTestWithData" />
   </testsuite>
 </testsuites>
